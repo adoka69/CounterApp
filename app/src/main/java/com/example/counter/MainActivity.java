@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         CounterText = findViewById(R.id.CounterText);
         CounterButton = findViewById(R.id.CounterButton);
-        int counter =1;
+       
         CounterButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
